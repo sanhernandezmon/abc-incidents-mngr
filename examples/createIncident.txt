@@ -1,0 +1,16 @@
+mutation {
+  createIncident(createIncidentInput: {
+    initialDate: "2024-09-01T00:00:00Z",
+    resolutionDate: "2024-09-02T00:00:00Z",
+    clientId: 123,
+    incidentType: "Network Outage",
+    companyId: 456
+  }) {
+    id
+    initialDate
+    resolutionDate
+    clientId
+    incidentType
+    companyId
+  }
+}

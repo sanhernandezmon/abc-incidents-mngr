@@ -1,0 +1,10 @@
+query {
+  incidents {
+    id
+    initialDate
+    resolutionDate
+    clientId
+    incidentType
+    companyId
+  }
+}
